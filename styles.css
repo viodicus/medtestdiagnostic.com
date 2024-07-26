@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #0097b2;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('hero-image.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #83a3ce; /* fallback for when the image is not available */
+}
+
+.cta-button {
+    background-color: #ebd59c;
+    color: #0097b2;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.services, .about, .contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services {
+    background-color: #476b96;
+    color: white;
+}
+
+.about {
+    background-color: #92a9af;
+    color: black;
+}
+
+.contact {
+    background-color: #ebd59c;
+    color: black;
+}
+
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
